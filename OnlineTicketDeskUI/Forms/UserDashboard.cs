@@ -28,5 +28,11 @@ namespace OnlineTicketDeskUI.Forms
             this.Close();
             Session.registrForm.Show();
         }
+
+        private void lnkCreateTicket_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new AddTicket(this).ShowDialog();
+            this.Hide();
+        }
     }
 }
