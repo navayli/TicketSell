@@ -15,5 +15,6 @@ namespace OnlineTicketDeskUI.Models
         public string Password { get; set; }
         public UserType userType { get; set; }
 
+
     }
 }
